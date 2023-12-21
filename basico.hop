@@ -1,9 +1,18 @@
 dec x_pi : num;
 dec acirc : num -> num;
 dec soma : num # num -> num;
+dec suc : num -> num;
+dec x_pi_em_e : num -> num;
+dec troca : num # num -> num # num;
 
 --- x_pi <= 3.14159;
 
 --- acirc r <= x_pi * pow (r, 2);
 
 --- soma (x, y) <= x + y;
+
+--- suc x <= x + 1;
+
+--- x_pi_em_e x <= x * x_pi / 5;
+
+--- troca (a, b) <= (b, a);

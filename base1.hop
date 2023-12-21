@@ -1,0 +1,11 @@
+dec faixa : num # num # num -> list num;
+dec comp : list num # (num -> truval) -> list num;
+dec listapot : num # list num -> list num;
+
+--- faixa (i, f, p) <= if i > f then [] else i :: faixa (i + p, f, p);
+
+--- comp ([], qualificador) <= [];
+--- comp (x :: xs, qualificador) <= if qualificador x then x :: comp (xs, qualificador) else comp (xs, qualificador);
+
+--- listapot (n, []) <= [];
+--- listapot (n, x :: xs) <= pow (x, n) :: listapot (n, xs);
