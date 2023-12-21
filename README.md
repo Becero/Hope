@@ -1,2 +1,4 @@
 # Hope
 Linguagem Funcional
+
+A linguagem Hope, desenvolvida em 1978 na Universidade de Edimburgo, desempenhou um papel fundamental na evolução da programação funcional. Embora tenha sido uma linguagem experimental acadêmica com uso limitado fora do ambiente educacional, suas características, como tipos de dados algébricos, correspondência de padrões e funções anônimas, influenciaram profundamente linguagens funcionais posteriores, incluindo ML, Miranda e Haskell. A sintaxe minimalista e leve do Hope a torna adequada para uso escolar, embora a ausência de recursos para compreensão de listas tenha exigido abordagens criativas. A linguagem conta com interpretadores disponíveis para sistemas POSIX e Windows, mas enfrenta desafios, como falta de documentação extensa e bibliotecas pré-existentes. Apesar das limitações, a necessidade de desenvolver funcionalidades básicas pode ser vista como uma oportunidade de aprendizado no contexto funcional.
